@@ -16,6 +16,14 @@ function configState($stateProvider, $urlRouterProvider, $compileProvider) {
                 pageTitle: 'Dashboard',
             }
         })
+
+        .state('chatbot', {
+            url: "/chatbot",
+            templateUrl: "views/chatbot.html",
+            data: {
+                pageTitle: 'ChatBot',
+            }
+        })
 }
 
 angular

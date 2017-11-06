@@ -10,6 +10,6 @@ angular
 
 function appCtrl($http, $scope) {
 
-
+    $scope.ciao = "Gabriele Scorreggione";
 
 }
